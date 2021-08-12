@@ -6,3 +6,4 @@
 
 - run main.py
 - or run windows binary!
+- create a shortcut of binary(exe) and place in Startup Folder
