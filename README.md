@@ -4,6 +4,6 @@
 
 ## Setup
 
-- run main.py
-- or run windows binary!
-- create a shortcut of binary(exe) and place in Startup Folder
+- run `python main.py`
+- or run windows binary (Motivation.exe)
+- create a shortcut of binary (Motivation.exe) and place in Startup Folder to start at startup!
