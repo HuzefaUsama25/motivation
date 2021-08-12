@@ -3,7 +3,6 @@ import random
 from pynput.keyboard import Key, Controller
 import time
 import getpass
-import os
 
 keyboard = Controller()
 USER_NAME = getpass.getuser()
@@ -43,10 +42,9 @@ def main():
     motivational_videos_ids = ["g-jwWYX7Jlo", "V3WrCx3mwNo",
                                "ERClHCOF14c", "QTB1YiWxxKU", "QTB1YiWxxKU", "wnHW6o8WMas"]
     video_link = random_video_link(motivational_videos_ids)
-    print(video_link)
     play_video(video_link)
 
 
 if __name__ == '__main__':
     main()
-    # exit()
+    exit()
